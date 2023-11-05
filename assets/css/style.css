@@ -1,0 +1,19 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.jenis-layanan,
+.diskon {
+  background-color: #00aaff3b;
+}
+.img-layanan-set {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.card-text-testimoni {
+  font-size: 15px;
+}
