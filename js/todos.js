@@ -33,7 +33,7 @@ function renderData() {
   todos.forEach((todo) => {
     const tr = document.createElement("tr");
     tr.classList.add("task-row");
-    tr.setAttribute("data-aos", "fade-up");
+    tr.setAttribute("data-aos", "zoom-in");
 
     const tdTask = document.createElement("td");
     tdTask.innerHTML = todo.content;
