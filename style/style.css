@@ -1,0 +1,97 @@
+:root {
+  --primary: #00a9ff;
+  --bg: #fff;
+  --biru-tua: #022030;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.about-body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* About Page */
+.about-page {
+  padding: 2rem 7% 1.4rem;
+}
+
+.about-page h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: var(--biru-tua);
+}
+
+.about-page h2 span {
+  color: var(--primary);
+}
+
+.about-page .row .about-img img {
+  width: 100%;
+  height: 24rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-page .row .content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--biru-tua);
+}
+
+.about-page .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.about-page .row-dua {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-page .row-dua .about-card {
+  text-align: center;
+  margin: 4rem;
+}
+
+.about-page .row-dua .about-card img {
+  border-radius: 50%;
+  height: 10rem;
+}
+
+.about-page .row-dua .about-card .about-card-tittle {
+  margin-top: 1rem auto 0.1rem;
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
