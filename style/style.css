@@ -80,7 +80,7 @@
    border: 1px solid black;
    border-radius: 25px;
    padding: 10px 30px;
-   transition: background-color 0.3s, color 0.3s; /* Efek perubahan warna berlangsung dalam 0.3 detik */
+   transition: background-color 0.3s, color 0.3s; 
 }
 
 .btn-read:hover {
@@ -88,4 +88,12 @@
    color: white;
 }
 
- 
+.todos-body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #E3FDFD;
+}
+
+.card-todo{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
