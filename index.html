@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PureClean Laundry</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- custome link css -->
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body class="body-LP">
+    <!-- Nabar Start -->
+    <nav class="navbar-LP">
+      <a href="#" class="navbar-logo">PureClean<span>Laundry</span></a>
+
+      <div class="navbar-menu">
+        <a href="index.html">Home</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#todos">Todos</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1 class="fw-bold">
+          PureClean <span>Laundry</span>, Solusi Kebersihan Anda
+        </h1>
+        <p>
+          Kami hadir untuk perawatan pakaian prima, memberikan hasil bersih,
+          harum, dan tahan lama untuk setiap pakaian Anda.
+        </p>
+        <a
+          href="#"
+          class="cta"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          >Order Now</a
+        >
+      </main>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Pelayanan</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Pelayanan</th>
+                    <th>Harga</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cuci 5Kg</td>
+                    <td>Rp. 25.000</td>
+                  </tr>
+                  <tr>
+                    <td>Cuci Kering 5Kg</td>
+                    <td>Rp. 20.000</td>
+                  </tr>
+                  <tr>
+                    <td>Setrika</td>
+                    <td>Rp. 3.000/Kg</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-lg">
+        <div class="py-4">
+          <div class="row">
+            <div class="col-md-6 text-start">
+              Copyright &copy; 2023 PT PureClean Laundry, All Right
+            </div>
+            <div class="col-md-6 text-end">Develop by Kelompok 1</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Link Js -->
+    <script src="/js/script.js"></script>
+
+    <!-- Link Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
