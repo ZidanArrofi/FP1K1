@@ -11,9 +11,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-}
-
-.about-body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -71,13 +68,6 @@
 
 .about-page .row-dua .about-card .about-card-tittle {
   margin-top: 1rem auto 0.1rem;
-  .body-LP {
-    font-family: "Poppins", sans-serif;
-  }
-}
-
-.body-LP {
-  font-family: "Poppins", sans-serif;
 }
 
 /* Navbar */
@@ -106,6 +96,19 @@
   color: #022030;
 }
 
+.navbar-LP .navbar-samping {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar-LP .navbar-samping a:hover {
+  color: var(--biru-tua);
+}
+
+#hamburger-menu {
+  display: none;
+}
+
 .navbar-LP .navbar-menu a {
   display: inline-block;
   font-size: 1.2rem;
@@ -129,19 +132,6 @@
 
 .navbar-LP .navbar-menu a:hover:after {
   transform: scaleX(1);
-}
-
-.navbar-LP .navbar-extra a {
-  color: #fff;
-  margin: 0 0.5rem;
-}
-
-.navbar-LP .navbar-extra a:hover {
-  color: var(--biru-tua);
-}
-
-#hamburger-menu {
-  display: none;
 }
 
 /* Hero Section */
@@ -272,10 +262,7 @@ footer {
   }
 }
 
-#portfolio {
-  font-family: "Poppins", sans-serif;
-}
-
+/* Portofolio */
 .jenis-layanan,
 .diskon {
   background-color: #00aaff3b;
@@ -334,7 +321,6 @@ footer {
 }
 
 .blog-laundry {
-  font-family: "Poppins", sans-serif;
   margin-bottom: 2rem;
 }
 
@@ -357,7 +343,7 @@ footer {
 }
 
 .todos-body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   background-color: #e3fdfd;
 }
 
@@ -378,9 +364,9 @@ footer {
 
 .blog-cardd:hover {
   transform: scale(1.05);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 0 10px #00A9FF;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 0 10px #00a9ff;
 }
 
-#contact-body{
-  background-color: #E3FDFD;
+#contact-body {
+  background-color: #e3fdfd;
 }
