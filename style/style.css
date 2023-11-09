@@ -15,6 +15,7 @@
 
 .about-body {
   font-family: "Poppins", sans-serif;
+  background-color: #E3FDFD;
 }
 
 /* About Page */
@@ -382,5 +383,9 @@ footer {
 }
 
 #contact-body{
+  background-color: #E3FDFD;
+}
+
+.blog-body{
   background-color: #E3FDFD;
 }
