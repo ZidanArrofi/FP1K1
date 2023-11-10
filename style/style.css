@@ -96,6 +96,10 @@
   z-index: 9999;
 }
 
+.about-body {
+  background-color: #e3fdfd;;
+}
+
 .navbar-LP .navbar-logo {
   font-size: 1.8rem;
   font-weight: 700;

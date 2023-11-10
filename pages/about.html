@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PureClean Laundry</title>
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- Link Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
     />
 
     <!-- Feather Icons -->
@@ -21,24 +28,23 @@
   </head>
 
   <body class="about-body">
-    <!-- Nabar Start -->
-    <nav class="navbar-LP">
-      <a href="#" class="navbar-logo">PureClean<span>Laundry</span></a>
+   <!-- Navbar Start -->
+   <nav class="navbar-LP">
+    <a href="#" class="navbar-logo">PureClean<span>Laundry</span></a>
+    <a href="#" id="hamburger-menu" class="navbar-samping"
+      ><i data-feather="menu"></i
+    ></a>
 
-      <div class="navbar-menu">
-        <a href="index.html">Home</a>
-        <a href="/pages/contact.html">Contact Us</a>
-        <a href="/pages/about.html">About Us</a>
-        <a href="/pages/portfolio.html">Portofolio</a>
-        <a href="/pages/blog.html">Blog</a>
-        <a href="/pages/todos.html">Todos</a>
-      </div>
-
-      <div class="navbar-extra">
-        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
-      </div>
-    </nav>
-    <!-- Navbar End -->
+    <div class="navbar-menu">
+      <a href="index.html">Home</a>
+      <a href="/pages/contact.html">Contact Us</a>
+      <a href="/pages/about.html">About Us</a>
+      <a href="/pages/portfolio.html">Portofolio</a>
+      <a href="/pages/blog.html">Blog</a>
+      <a href="/pages/todos.html">Todos</a>
+    </div>
+  </nav>
+  <!-- Navbar End -->
 
     <!-- About Section start -->
     <section id="about-page" class="about-page">
@@ -134,6 +140,20 @@
       </div>
     </section>
     <!-- About Section end -->
+
+    <footer>
+      <div class="container-lg">
+        <div class="py-4">
+          <div class="row">
+            <div class="col text-start">
+              Copyright &copy; 2023 PT PureClean Laundry, All Right
+            </div>
+            <div class="col text-end">Develop by Kelompok 1</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
 
     <!-- Feather Icons -->
     <script>
